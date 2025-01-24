@@ -1,0 +1,34 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 5%;
+
+}
+header.logo{
+    font-size: 25px;
+}
+header.logo.span{
+    color:#93d6d0;
+}
+header.menu.a{
+    position: relative;
+    margin: 0 10 px;
+    text-decoration: 0;
+    color: #fff;
+    transition: 0.5s;
+}
+.l1{
+    margin-left: 0px;
+}
+.d1{
+    height: 10000px;
+    width: 1000px;
+    background-image: url(photo1.jpg);
+    background-repeat: no-repeat;
+}
+.d2{
+    background-color: white;
+    border: 1px solid white;
+    width: 200px;
+}

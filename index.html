@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dentist Website</title>
+    <style>
+       header.menu a:before{
+           position: absolute;
+           top: -2px;
+           content: "";
+           width: 100%;
+           height: 2%;
+           background-color: #93d6d0;
+           transition: 0.5s;
+       }
+       header.menu a :hover::before{
+           width: 100%;
+       }
+       header.menu a:hover{
+           color: #000;
+       }
+   </style>
+</head>
+<body>
+    <header style="display: flex;align-items: center;justify-content: center;padding: 10px 5%;"></header>
+        <div class="logo" style="font-size: 25px;"> <span style="color:#93d6d0;">D</span>entist</div>
+        <ul class="menu;" style="word-spacing: 3rem;">
+            <a href="#" style="position: relative;margin: 0 10 px; text-decoration: 0; color: #999;transition: 0.5s;">Consultation</a>
+            <a href="#" style="position: relative;margin: 0 10 px; text-decoration: 0; color: #999;transition: 0.5s;" >Avis clients</a>
+            <a href="#" style="position: relative;margin: 0 10 px; text-decoration: 0; color: #999;transition: 0.5s;">Contact</a>
+            <a href="#" style="position: relative;margin: 0 10 px; text-decoration: 0; color: #999;transition: 0.5s;">Spécialistes</a>
+        </ul>
+
+    </header>
+    
+    <section style="height: calc(100vh - 55px);background-image: url(photo1.jpg);background-position: center; background-size: cover; display: flex;align-items: flex-end; padding-left: 5%; padding-bottom: 50px;">
+        <style>
+            @keyframes anime{
+                from{
+                    transform: translateX(-600px);
+                }
+            }
+            
+        </style>
+
+            <div class="d2"  style="background-color: white;width: 500px; padding: 50px;border-radius: 10px;animation: anime 2s linear;">
+                <h2 style="text-transform: uppercase;font-size: 30px;">PATIENT SERVICES</h2>
+                <p class="p1" style="margin-top: 10px;margin-bottom: 20px;">We provide the broadest range of accredited, innovative patient services</p>
+                <a href="#" style="border: 2px solid rgb(119, 169, 158); color: rgb(119, 169, 158); height: fit-content;width: 110px; padding: 5px 20px; border-radius: 5px;margin-top: 5px;font-weight: 400;text-transform: capitalize;transition: 0.5s;">Hire a Specialist</a>
+            </div>
+    </section>
+
+
+    <section style="padding: 0 10%;">
+        <h2 style="font-weight: bold;text-align: center;font-size: 35px;">MEDICAL SERVICES</h2>
+        <p style="text-align: center; color: rgb(168, 197, 190);">Our Center offer you and your family the complete range of healthcare services </p>
+    <div class="list" style="display: grid; grid-template-columns: repeat(auto-fit,20rem); justify-content: center;gap: 20px; margin-bottom: 50px;">
+        <div class="box" style="background-color: rgb(210, 232, 227); border-radius: 10px; padding: 15px; width: fit-content; " >
+            <h4 style="color: rgb(168, 197, 190);">FAMILLY CARE</h4>
+            <p>From walk-in care, same-day <br> appointments to online visits with <br> OnCare, we'll take good care of you. <br>If you are experiencing an <br> emergency.</p>
+            <style>
+                .list.box:hover{
+                    background-color: #93d6d0;
+                }
+                .list.box:hover h4{
+                    color: #fff;
+                }
+                .list.box:hover p{
+                    color: #000;
+                }
+            </style>
+        </div>
+        <div style="background-color: rgb(211, 228, 224); border-radius: 10px; padding: 15px; width: fit-content;">
+            <h4 style="color: rgb(168, 197, 190);">URGENT CARE</h4>
+            <p>From walk-in care, same-day <br> appointments to online visits with <br> OnCare, we'll take good care of you. <br>If you are experiencing an <br> emergency.</p>
+        </div>
+        <div style="background-color: rgb(211, 228, 224); border-radius: 10px; padding: 15px; width: fit-content;">
+            <h4 style="color: rgb(168, 197, 190);">SPECTIALIST CARE</h4>
+            <p>From walk-in care, same-day <br> appointments to online visits with <br> OnCare, we'll take good care of you. <br>If you are experiencing an <br> emergency.</p>
+        </div>
+        <div style="background-color: rgb(211, 228, 224); border-radius: 10px; padding: 15px; width: fit-content;">
+            <h4 style="color: rgb(168, 197, 190);">PEDIATRIC</h4>
+            <p>From walk-in care, same-day <br> appointments to online visits with <br> OnCare, we'll take good care of you. <br>If you are experiencing an <br> emergency.</p>
+        </div>
+        <div style="background-color: rgb(211, 228, 224); border-radius: 10px; padding: 15px; width: fit-content;">
+            <h4 style="color: rgb(168, 197, 190);">DENTIST</h4>
+            <p>From walk-in care, same-day <br> appointments to online visits with <br> OnCare, we'll take good care of you. <br>If you are experiencing an <br> emergency.</p>
+        </div>
+        <div style="background-color: rgb(211, 228, 224); border-radius: 10px; padding: 15px; width: fit-content;">
+            <h4 style="color: rgb(168, 197, 190);">OPHTAMOLOGUE</h4>
+            <p>From walk-in care, same-day <br> appointments to online visits with <br> OnCare, we'll take good care of you. <br>If you are experiencing an <br> emergency.</p>
+        </div>
+    </div>
+    </section>
+    
+    <div style="height: calc(100vh - 55px);background-image: url(photo2.jpg);background-position: center; background-size: cover;">
+    </div>
+
+    <section style="display: flex;align-items: center;justify-content: space-between;padding: 0 15%; background-color: #f3fbfa;height: 50vh;">
+        <div style="width: 45%;">
+            <span style="font-weight: bold;color: #93d6d0;">Our Services</span>
+            <h1 style="font-size: 35px;padding: 15px;margin-bottom: 15px;">SPECIFIC GOALS FOR THERAPY WILL BE DETERMINED BY YOU AND YOUR THERAPIST</h1>
+            <a href="#" style="background-color: #93d6d0;color: #fff;text-decoration: 0; padding: 10px 25px; text-transform: uppercase;">BOOK AN APPOINTMENT</a>
+        </div>
+        <div style="width: 45%;">
+            <p>Les dentistes jouent un rôle crucial dans la santé publique en veillant à la santé bucco-dentaire de leurs patients. Leur principal objectif est de prévenir, diagnostiquer et traiter les maladies et les affections des dents, des gencives et de la bouche. Ils effectuent des examens réguliers, des nettoyages, des obturations, des extractions et des traitements de canal</p>
+            <p>Les dentistes peuvent également se spécialiser dans des domaines tels que l'orthodontie, la parodontie ou la chirurgie buccale pour offrir des soins plus spécialisés. Leur but ultime est de garantir que leurs patients maintiennent une bouche saine et un sourire éclatant tout au long de leur vie</p>
+        </div>
+    </section>
+
+    <footer style="padding: 0 15%;">
+        <h1 style="margin-bottom: 20px;">Let's Contact</h1>
+        <div style="display: flex;align-items: center;justify-content: space-between;">
+            <div style="width: 45%;display: flex;flex-direction: column;height: 300px;">
+                <h2>GET A FREE CASE EVALUATION TODAY</h2>
+                <h4 style="margin-bottom: 20px;">AVAILABLE 24 HOURS A DAY!</h4>
+                <form action="" style="display: flex;flex-direction: column;">
+                    <input type="text" placeholder="Enter your name" style="margin: 5px 0; padding: 5px;border: 1px solid #999;resize: none;outline: 0;">
+                    <input type="email" placeholder="Enter a valid mail address" style="margin: 5px 0; padding: 5px;border: 1px solid #999;resize: none;outline: 0;">
+                    <textarea placeholder="Enter your message" cols="30" rows="8"style="margin: 5px 0; padding: 5px;border: 1px solid #999;resize: none;outline: 0;"style="margin: 5px 0; padding: 5px;border: 1px solid #999;resize: none;outline: 0;"></textarea>
+                    <button style="width: fit-content;padding: 10px 25px;background-color: #93d6d0;border: 0;font-weight: bold; color: #000;margin-top: 5px;">SUBMIT</button>
+                </form>
+            </div>
+            <div class="address" style="width: 50%;height: 300px;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.874102788607!2d2.3350637125616074!3d48.860611071212915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671d877937b0f%3A0xb975fcfa192f84d4!2sMus%C3%A9e%20du%20Louvre!5e0!3m2!1sfr!2sbj!4v1737536945123!5m2!1sfr!2sbj" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="width: 100%;height: 100%;box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);"></iframe>
+            </div>
+        </div>
+    </footer>
+
+    <div style="margin-top: 150px;background-color: #333; text-align: center; font-size: 15px; padding: 10px 0; color: #fff;">
+        <p>Réalisé par @hikmath</p>
+    </div>
+</body>
+</html>
